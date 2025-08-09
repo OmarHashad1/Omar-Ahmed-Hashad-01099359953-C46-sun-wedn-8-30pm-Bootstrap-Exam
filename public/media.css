@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px) {
+  .header-content p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-section-content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .about-image-col::before {
+    height: 80%;
+  }
+  .about-image-col::after {
+    content: "";
+    position: absolute;
+    bottom: 43px;
+    left: 15px;
+    width: 60%;
+    height: 30px;
+    background-image: url("../assets/dots.png");
+    background-size: 12px 12px;
+    background-repeat: repeat;
+    opacity: 01;
+    z-index: -1;
+  }
+  .card-tab .card img {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-tab .card {
+    overflow: hidden;
+  }
+}
